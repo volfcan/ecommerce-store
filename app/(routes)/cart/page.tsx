@@ -13,7 +13,7 @@ const CartPage = () => {
 
     useEffect(() => {
         setIsMounted(true)
-    },[]);
+    },[]);18
 
     if(!isMounted) {
         return null;
